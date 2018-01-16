@@ -31,13 +31,13 @@ margin: 0;
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid cadetblue;
   border-radius: .5rem;
-  margin: 1rem;
+  margin: 1.5rem;
   font-size: .5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
-  width: 5rem;
+  width: 7rem;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
@@ -52,7 +52,7 @@ margin: 0;
 
 kbd {
   display: block;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .sound {
