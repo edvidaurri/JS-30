@@ -1,14 +1,17 @@
 html {
-  font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  font-size: 12px;
+  background: url(https://i.imgur.com/WI6wvaK.jpg) ;
   background-size:cover;
 }
 body,html {
-margin: 0;
+  margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
+#Keyboard {
+  margin-top: 200px;
+}
 .top {
   display: flex;
   flex: 1;
@@ -19,7 +22,7 @@ margin: 0;
 .bottom {
   display: flex;
   flex: 1;
-  align-items:flex-end;
+  align-items:flex-start;
   justify-content: center;
 }
 
@@ -31,7 +34,7 @@ margin: 0;
 }
 
 .key {
-  border: .4rem solid cadetblue;
+  border: .4rem solid lightgreen;
   border-radius: .5rem;
   margin: 1.5rem;
   font-size: .5rem;
@@ -39,7 +42,7 @@ margin: 0;
   transition: all .07s ease;
   width: 7rem;
   text-align: center;
-  color: white;
+  color: aqua;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
 }
