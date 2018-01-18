@@ -44,3 +44,39 @@ body {
   position: absolute;
   top:50%;
 }
+
+.numbers {
+  display: flex;
+  color: darkgreen;
+  font-family: fantasy;
+  font-size: 1.5em;
+
+}
+
+#twelve {
+align-items: flex-start;
+
+margin-top: -20px;
+margin-left: 120px;
+}
+
+#six {
+align-items: flex-end;
+
+margin-top: 250px;
+margin-left: -175px;
+}
+
+#three {
+align-items: flex-end;
+
+margin-top: 110px;
+margin-left: 115px;
+}
+
+#nine {
+align-items: flex-end;
+
+margin-top: 110px;
+margin-left: -170px;
+}
